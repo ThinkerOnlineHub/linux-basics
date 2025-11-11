@@ -57,3 +57,6 @@
 
 ## Notes
 Learned about Linux directory structure and file creation commands.
+
+![Day 1 Terminal screenshot](day-01-screenshot-linux-basics.png)
+
