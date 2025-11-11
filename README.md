@@ -29,8 +29,20 @@ LinkedIn: https://www.linkedin.com/in/prafulla-sagavekar/
 
 This repository contains my 14-day Linux command practice under Platform Ops learning roadmap.
 
+## 📘 Platform Ops – Linux Basics Progress Tracker
+
 | Day | Topic | Status |
 |-----|--------|--------|
-| 1 | Basic commands | ✅ |
-| 2 | File permissions | 🔄 |
-| 3 | User management | ⏳ |
+| 1 | Basic Commands | ✅ Completed |
+| 2 | File Permissions | 🔄 In Progress |
+| 3 | User Management | ⏳ Pending |
+| 4 | File System Navigation | ⏳ Pending |
+| 5 | Package Management | ⏳ Pending |
+| 6 | Processes & Services | ⏳ Pending |
+| 7 | Networking Basics | ⏳ Pending |
+| 8 | Shell Scripting | ⏳ Pending |
+| 9 | Review & Mini Project | ⏳ Pending |
+| 10 | Recap + Push to GitHub | ⏳ Pending |
+
+🗓️ *Last updated: 11 Nov 2025*
+
