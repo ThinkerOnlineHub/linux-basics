@@ -1,6 +1,6 @@
 # Platform Ops Learning (Linux Basics)
 
--This repo will be used to demonstrate hands-on progress for Platform Ops roles — includes terminal commands, short notes, and small reproducible examples.
+- This repo will be used to demonstrate hands-on progress for Platform Ops roles — includes terminal commands, short notes, and small reproducible examples.
 
 
 **Purpose / उद्देश:**  
