@@ -18,7 +18,7 @@ This repo documents a 14-day Linux basics learning journey aimed at building a f
 
 **Contact / संपर्क:**  
 GitHub: @ThinkerOnlineHub  
-LinkedIn: https://www.linkedin.com/in/prafulla-sagavekar-6b87b7397/
+LinkedIn: https://www.linkedin.com/in/prafulla-sagavekar/
 
 
 
