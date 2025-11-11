@@ -1,5 +1,8 @@
 # Platform Ops Learning (Linux Basics)
 
+-This repo will be used to demonstrate hands-on progress for Platform Ops roles — includes terminal commands, short notes, and small reproducible examples.
+
+
 **Purpose / उद्देश:**  
 This repo documents a 14-day Linux basics learning journey aimed at building a foundation for Platform Ops roles.  
 हा repo Platform Ops साठी Linux चा आधार बनवण्यासाठी दररोजचे concise notes आणि small commands ठेवतो.
