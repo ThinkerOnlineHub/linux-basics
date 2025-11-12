@@ -60,3 +60,55 @@ Learned about Linux directory structure and file creation commands.
 
 ![Day 1 Terminal screenshot](day-01-screenshot-linux-basics.png)
 
+
+# 🧩 Platform Ops Journey – Day 01  
+### Topic: Linux Basics – Introduction & File System  
+
+---
+
+## 🎯 Goal
+Understand the structure of Linux and practice basic navigation commands.
+
+---
+
+## 📘 Commands Practiced
+
+| Command | Description |
+|----------|--------------|
+| `pwd` | Shows current working directory |
+| `ls` | Lists files and directories |
+| `cd` | Changes directory |
+| `mkdir` | Creates a new directory |
+| `rmdir` | Removes an empty directory |
+| `touch` | Creates a new empty file |
+| `rm` | Deletes a file |
+
+---
+
+## 🧠 Learnings & Notes
+- Everything in Linux is treated as a file.
+- The root directory (`/`) is the top of the hierarchy.
+- Practice `cd ..` to move one level up.
+- Use `ls -l` for detailed file list.
+
+---
+
+## 🧑‍💻 Practice Activity
+1. Create a directory named `test`
+2. Inside it, create a file `file1.txt`
+3. List and delete that file
+4. Remove the `test` directory
+
+---
+
+## 💬 Reflection
+Day 1 felt great — refreshed Linux basics after a long gap.  
+Next step: explore file permissions (`chmod`, `chown`).
+
+---
+
+## 🔗 Links
+- 🎥 YouTube: [@ThinkerNetSutra](https://www.youtube.com/@ThinkerNetSutra)
+- 💻 GitHub Repo: [ThinkerOnlineHub/linux-basics](https://github.com/ThinkerOnlineHub/linux-basics)
+- 📰 Blog (Coming Soon): [thinkernetsutra.wordpress.com](https://thinkernetsutra.wordpress.com)
+
