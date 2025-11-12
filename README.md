@@ -33,17 +33,6 @@ This journey helps me build confidence with the command line, file systems, and 
 
 ---
 
-linux-basics/
-│
-├── day-01.md
-├── day-02.md
-├── screenshots/
-│ └── day-01-terminal.png
-├── README.md
-└── progress-tracker.md
-
----
-
 
 > 📝 Each day includes:
 > - Commands practiced  
