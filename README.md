@@ -1,48 +1,85 @@
-# Platform Ops Learning (Linux Basics)
+# 🧩 Linux Basics – Platform Ops Learning Journey  
 
-- This repo will be used to demonstrate hands-on progress for Platform Ops roles — includes terminal commands, short notes, and small reproducible examples.
+Welcome to my **Platform Operations Learning Journey**!  
+This repository documents my daily hands-on practice in Linux, forming the foundation for my future learning in **Cloud, Containers, and DevOps**.  
+Each day, I learn-by-doing and share progress publicly — one step at a time 🚀  
+
+---
+
+## 🎯 **Goal**
+To master Linux fundamentals required for Platform Ops, DevOps, and Cloud Engineering roles.  
+This journey helps me build confidence with the command line, file systems, and networking concepts — the real backbone of every production system.
+
+---
+
+## 📆 **Progress Tracker**
+
+| Day | Topic | Status | Notes / Link |
+|-----|--------|--------|---------------|
+| 1 | Basic Commands | ✅ | [Day-01.md](day-01.md) |
+| 2 | File Permissions | 🔄 | In Progress |
+| 3 | User Management | ⏳ | Planned |
+| 4 | File System Structure | ⏳ | Planned |
+| 5 | File Redirection & Pipes | ⏳ | Planned |
+| 6 | Package Management | ⏳ | Planned |
+| 7 | Process Management | ⏳ | Planned |
+| 8 | Networking Basics | ⏳ | Planned |
+| 9 | Disk Management | ⏳ | Planned |
+| 10 | Shell Scripting Intro | ⏳ | Planned |
+| 11 | Environment Variables | ⏳ | Planned |
+| 12 | System Monitoring Tools | ⏳ | Planned |
+| 13 | Backup & Compression | ⏳ | Planned |
+| 14 | Mini Project / Revision | ⏳ | Planned |
+
+---
+
+linux-basics/
+│
+├── day-01.md
+├── day-02.md
+├── screenshots/
+│ └── day-01-terminal.png
+├── README.md
+└── progress-tracker.md
+
+---
 
 
-**Purpose / उद्देश:**  
-This repo documents a 14-day Linux basics learning journey aimed at building a foundation for Platform Ops roles.  
-हा repo Platform Ops साठी Linux चा आधार बनवण्यासाठी दररोजचे concise notes आणि small commands ठेवतो.
+> 📝 Each day includes:
+> - Commands practiced  
+> - Output screenshots (optional)  
+> - Short notes and learnings  
+> - Reflection or use-case in Platform Ops context  
 
-**Contents / गोष्ट:**  
-- day-01.md … day-14.md — short summaries, commands, outputs, and optional screenshots.  
-- Usage: Follow the Day-X files to reproduce commands locally.
+---
 
-**How to reproduce / कसे reproduce करायचे:**  
-1. Clone: `git clone https://github.com/ThinkerOnlineHub/linux-basics.git`  
-2. Open file: `cd linux-basics && less day-01.md`  
-3. Follow commands in your terminal (Mac Terminal / Linux).
+## 🧰 **Tools Used**
 
-**Contact / संपर्क:**  
-GitHub: @ThinkerOnlineHub  
-LinkedIn: https://www.linkedin.com/in/prafulla-sagavekar/
+- **macOS Terminal** (Practice environment)
+- **GitHub** (Daily uploads)
+- **Notion** (Study planner)
+- **VS Code** (For markdown editing)
 
+---
 
+## 🔗 **Connect with Me**
 
-# linux-basics
-14 days Linux learning notes and practice commands
+- 🌐 **LinkedIn:** [Prafulla Sagavekar](https://www.linkedin.com/in/prafulla-sagavekar/)
+- 💻 **GitHub:** [ThinkerOnlineHub](https://github.com/ThinkerOnlineHub)
+- ▶️ **YouTube (Hindi + Tech):** [@thinkerprafulla](https://www.youtube.com/@thinkerprafulla)
+- 🎙️ **YouTube (Marathi):** [@ThinkerNetSutra](https://www.youtube.com/@ThinkerNetSutra)
+- 🌏 **Blog:** [thinkernetsutra.wordpress.com](https://thinkernetsutra.wordpress.com/)
 
-# Linux Basics Learning
+---
 
-This repository contains my 14-day Linux command practice under Platform Ops learning roadmap.
+## 🏁 **Next Step**
+After Linux → Move to **AWS Basics**, then **Docker**, **Kubernetes (EKS)**, and finally a **Mini Platform Ops Project** combining all learnings.
 
-## 📘 Platform Ops – Linux Basics Progress Tracker
+> सातत्य म्हणजे शक्ती 💪 | Consistency is Power 💪
 
-| Day | Topic | Status |
-|-----|--------|--------|
-| 1 | Basic Commands | ✅ Completed |
-| 2 | File Permissions | 🔄 In Progress |
-| 3 | User Management | ⏳ Pending |
-| 4 | File System Navigation | ⏳ Pending |
-| 5 | Package Management | ⏳ Pending |
-| 6 | Processes & Services | ⏳ Pending |
-| 7 | Networking Basics | ⏳ Pending |
-| 8 | Shell Scripting | ⏳ Pending |
-| 9 | Review & Mini Project | ⏳ Pending |
-| 10 | Recap + Push to GitHub | ⏳ Pending |
+---
 
-🗓️ *Last updated: 11 Nov 2025*
+⭐ **If you found this repo useful or inspiring — give it a star!**
+
+## 📸 **Repository Structure**
 
