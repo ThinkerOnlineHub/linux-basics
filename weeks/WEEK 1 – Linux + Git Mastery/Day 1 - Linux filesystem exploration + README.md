@@ -99,7 +99,7 @@ Many developer tools and command-line utilities live here.
 
 ✔ Included as proof of hands-on practice (terminal output running file system commands)
 
- ![Linux File System Structure Screenshot](screenshots/Linux File System Structure CLI.png)
+ ![Linux File System Structure Screenshot](screenshots/screenshots/Linux_File_System_Structure_CLI.png)
 
 
 ---
