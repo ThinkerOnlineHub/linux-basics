@@ -100,6 +100,6 @@ Many developer tools and command-line utilities live here.
 ✔ Included as proof of hands-on practice (terminal output running file system commands)
 
 
-![linux_file_system](screenshots/Linux_File_System_Structure_CLI.png)
+![file system](screenshots/Linux_File_System_Structure_CLI.png)
 
 ---
