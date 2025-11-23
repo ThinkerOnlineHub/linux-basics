@@ -58,7 +58,7 @@
 ## Notes
 Learned about Linux directory structure and file creation commands.
 
-![Day 1 Terminal screenshot](day-01-screenshot-linux-basics.png)
+![Day 1 Terminal screenshot]([day-01-screenshot-linux-basics.png](https://github.com/ThinkerOnlineHub/linux-basics/blob/29952bcbf79ef5222acfe69fa2d5a7b407e8ce4b/screenshots/day-01-screenshot-linux-basics.png))
 
 
 # 🧩 Platform Ops Journey – Day 01  
