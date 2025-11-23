@@ -60,6 +60,7 @@ Learned about Linux directory structure and file creation commands.
 
 ![Day 1 Terminal screenshot](screenshots/day-01-screenshot-linux-basics.png)
 
+![file system](screenshots/Linux_File_System_Structure_CLI.png)
 
 # 🧩 Platform Ops Journey – Day 01  
 ### Topic: Linux Basics – Introduction & File System  
