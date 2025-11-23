@@ -99,5 +99,7 @@ Many developer tools and command-line utilities live here.
 
 ✔ Included as proof of hands-on practice (terminal output running file system commands)
 
+![Linux File System Structure Screenshot]([https://github.com/ThinkerOnlineHub/linux-basics/blob/main/screenshots/day-01-screenshot-linux-basics.png](https://github.com/ThinkerOnlineHub/linux-basics/blob/4f5a145d40072bdaebd60e19055d9dc8d7a8c7e3/screenshots/Linux%20File%20System%20Structure%20CLI.png)?raw=true)
+
 
 ---
