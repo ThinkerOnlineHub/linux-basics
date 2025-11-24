@@ -46,14 +46,15 @@ rm downloads/about-me.txt
 
 ### 📂 **Folder Structure After Completion**
 
+```
 platformops-learning/
 └── day1/
     ├── documents-/
     │   └── about-me.txt
     ├── downloads-/        (empty because file was deleted)
     └── projects/         (empty)
-
+```
 ### 📝 **Screenshot Reference**
-📎 ![Day 1 Practice Screenshot](screenshots/screenshots/File_&_Directory_Commands_Practice.png)
+📎 ![Day 1 Practice Screenshot](screenshots/File_&_Directory_Commands_Practice.png)
 
 
