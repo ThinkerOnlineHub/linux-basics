@@ -1,4 +1,4 @@
-##🔧 Commands Practiced
+## 🔧 Commands Practiced
 
 mkdir platformops-learning
 cd platformops-learning
@@ -13,9 +13,9 @@ cp about-me.txt documents/
 mv about-me.txt downloads/
 rm downloads/about-me.txt
 
-##🧠 What Happened Step-by-Step (Observations)
+## 🧠 What Happened Step-by-Step (Observations)
 
-###Step	Command	What I Observed / Result:
+### Step	Command	What I Observed / Result:
 
 | Step | Command                                       | What I Observed / Result                                                                                           |
 | ---- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -31,7 +31,7 @@ rm downloads/about-me.txt
 | 10   | `rm downloads/about-me.txt`                   | The file inside **downloads** folder was **deleted** permanently. No recycle bin in terminal.                      |
 
 
-###✔️ Learning Outcome
+### ✔️ Learning Outcome
 
 | Concept                              | Status                     |
 | ------------------------------------ | -------------------------- |
