@@ -55,6 +55,6 @@ platformops-learning/
     └── projects/         (empty)
 ```
 ### 📝 **Screenshot Reference**
-📎 ![Day 1 Practice Screenshot]([screenshots/File_&_Directory_Commands_Practice.png](https://github.com/ThinkerOnlineHub/linux-basics/blob/ec3cda5479d2c210b775c63abd50e4b808567f64/screenshots/File_%26_Directory_Commands_Practice.png?raw=true)
+📎 ![Day 1 Practice Screenshot](https://github.com/ThinkerOnlineHub/linux-basics/blob/ec3cda5479d2c210b775c63abd50e4b808567f64/screenshots/File_%26_Directory_Commands_Practice.png?raw=true)
 
 
