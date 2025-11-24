@@ -1,5 +1,6 @@
 ## 🔧 **Commands Practiced**
 
+```bash
 mkdir platformops-learning
 cd platformops-learning
 mkdir day1
@@ -52,6 +53,6 @@ platformops-learning/
     └── projects/         (empty)
 
 ### 📝 **Screenshot Reference**
-📎 ![Day 1 Practice Screenshot](./screenshots/day1.png)
+📎 ![Day 1 Practice Screenshot](screenshots/screenshots/File_&_Directory_Commands_Practice.png)
 
 
