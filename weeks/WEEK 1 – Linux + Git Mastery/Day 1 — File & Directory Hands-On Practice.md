@@ -12,8 +12,9 @@ echo "Learning Linux Day 1" >> about-me.txt
 mkdir projects documents downloads
 cp about-me.txt documents/
 mv about-me.txt downloads/
-rm downloads/about-me.txt
+rm downloads/about-me.txt 
 
+```
 
 ## 🧠 **What Happened Step-by-Step (Observations)**
 
