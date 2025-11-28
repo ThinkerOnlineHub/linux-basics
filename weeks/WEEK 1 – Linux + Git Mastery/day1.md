@@ -45,7 +45,7 @@
 ---
 
 ## 📸 Screenshot
-![day-01](screenshots/day-01-screenshot-linux-basics.png)
+![day-01](screenshots/Day_01—Linux_Basics_Navigation_&_Files.png)
 ![day-01](screenshots/day-01-screenshot-linux-basics.png)
 
 ---
