@@ -45,9 +45,8 @@
 ---
 
 ## 📸 Screenshot
-(Add your screenshot here)
-
-`![day-01](screenshots/day-01.png)`
+![day-01](screenshots/day-01-screenshot-linux-basics.png)
+![day-01](screenshots/day-01-screenshot-linux-basics.png)
 
 ---
 
