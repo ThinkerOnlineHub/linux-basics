@@ -53,3 +53,9 @@
 ## 💬 Commit Message
 Add day-01.md — Linux navigation & basic file commands practice
 
+
+
+🔗 Links
+🎥 YouTube: @ThinkerNetSutra
+💻 GitHub Repo: ThinkerOnlineHub/linux-basics
+📰 Blog (Coming Soon): thinkernetsutra.wordpress.com
