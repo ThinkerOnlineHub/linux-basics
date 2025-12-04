@@ -45,6 +45,7 @@
 ---
 
 ## 📸 Screenshot
+
 ![day-01](screenshots/Day_01—Linux_Basics_Navigation_&_Files.png)
 
 ---
