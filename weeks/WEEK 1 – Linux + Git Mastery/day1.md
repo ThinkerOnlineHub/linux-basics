@@ -46,7 +46,7 @@
 
 ## 📸 Screenshot
 
-![day-01](screenshots/Day_01—Linux_Basics_Navigation_&_Files.png)
+
 
 ![day1](https://github.com/ThinkerOnlineHub/linux-basics/blob/0b9b7746fe100518efbace4ecb335eff2395153c/screenshots/Day_01%E2%80%94Linux_Basics_Navigation_%26_Files.png)
 ---
