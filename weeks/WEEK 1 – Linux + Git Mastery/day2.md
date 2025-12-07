@@ -251,5 +251,5 @@ Means:
 
 # 📌 Want me to generate:
 
-![day2-File-Permissions_&_Owners](day2_change_fil  )
-![day2-Change_File-Permissions_&_Owners](day2_change_fil  )
+![day2-File-Permissions_&_Owners](screenshots/Day2_Change_File_Permissions_owner,groups_Linux.png)
+![day2-Change_File-Permissions_&_Owners](screenshots/Day_02_File_permissions_and_owners.png)
