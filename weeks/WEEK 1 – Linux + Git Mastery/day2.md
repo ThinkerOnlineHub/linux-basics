@@ -251,6 +251,6 @@ Means:
 
 # 📌 Want me to generate:
 
-![day2-File-Permissions_&_Owners]([screenshots/Day2_Change_File_Permissions_owner,groups_Linux.png](https://github.com/ThinkerOnlineHub/linux-basics/blob/e7272a668b6bec45567aec30afd7d19418ffe7fb/screenshots/Day2_Change_File_Permissions_owner%2Cgroups_Linux.png))
+![day2_Permissions_&_Owners](https://github.com/ThinkerOnlineHub/linux-basics/blob/e7272a668b6bec45567aec30afd7d19418ffe7fb/screenshots/Day2_Change_File_Permissions_owner%2Cgroups_Linux.png)
 
-![day2-Change_File-Permissions_&_Owners]([screenshots/Day_02_File_permissions_and_owners.png](https://github.com/ThinkerOnlineHub/linux-basics/blob/e7272a668b6bec45567aec30afd7d19418ffe7fb/screenshots/Day_02_File_permissions_and_owners.png))
+![day2-Change_File-Permissions_&_Owners](https://github.com/ThinkerOnlineHub/linux-basics/blob/e7272a668b6bec45567aec30afd7d19418ffe7fb/screenshots/Day_02_File_permissions_and_owners.png)
