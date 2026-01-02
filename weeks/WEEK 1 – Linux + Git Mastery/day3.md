@@ -1,203 +1,242 @@
-## 📄 **Day-3 — Linux Users, Groups & Sudo Access**
 
-````markdown
-# Day-3 — Linux Users, Groups & Sudo Access
+# ✅ **DAY-03: Linux Users, Groups & Sudo Access (AWS Ubuntu)**
 
-> **Topic:** Linux User Management, Groups, and Sudo Privileges  
-> **Category:** Linux Fundamentals  
-> **Level:** Beginner → Platform Ops Foundation
+> **Goal:** Understand Linux users, groups, and sudo access using a real AWS EC2 Ubuntu instance.
+> This is a **critical foundation** for DevOps, SRE, and Platform Engineering because **access control = security**.
 
 ---
 
-## 🔍 Overview
-
-Today’s focus is on **Linux user and group management**, along with understanding **sudo access**.
-
-In Platform Operations and DevOps roles, **access control and permissions** are critical.  
-Most real-world incidents, security issues, and automation tasks involve users, groups, and privilege escalation.
-
-Understanding this properly is **mandatory for production systems**.
-
----
-
-## 🧑‍💻 Commands Practiced (Terminal History)
-
-```bash
-groups $(whoami)
-id $(whoami)
-sudo -i
-sudo useradd testuser
-sudo passwd testuser
-sudo usermod -aG sudo testuser
-man sudo usermod -aG
-man sudo usermod -a | grep "-a"
-man sudo usermod | grep "G"
-````
-
----
-
-## 🚀 What I Learned (Step-by-Step)
-
----
-
-### 1️⃣ Checking User Groups
+# 🧩 **1. Understanding Users & Groups in Linux**
 
 Linux is a **multi-user operating system**.
-Knowing which user belongs to which group is essential for permissions and access control.
+Every command, file access, and service runs under a **user identity**.
+
+Each user has:
+
+* **UID** → User ID
+* **GID** → Primary Group ID
+* **Secondary Groups** → Additional permissions
+
+---
+
+# 🔍 **2. Checking Groups on AWS Ubuntu**
+
+### Command used:
 
 ```bash
 groups $(whoami)
 ```
 
-* `whoami` → shows the currently logged-in user
-* `groups` → displays all groups that user belongs to
+### Real output (AWS Ubuntu):
+
+```
+ubuntu : ubuntu adm cdrom sudo dip lxd
+```
+
+### Meaning:
+
+| Group    | Purpose                     |
+| -------- | --------------------------- |
+| `ubuntu` | Primary user group          |
+| `adm`    | Read system logs            |
+| `cdrom`  | Access CD-ROM devices       |
+| `sudo`   | Run administrative commands |
+| `dip`    | Network configuration       |
+| `lxd`    | Manage LXD containers       |
+
+✅ Presence of **`sudo` group** means this user already has admin access.
+
+---
+
+# 🧾 **3. Checking Detailed User Identity**
 
 ```bash
 id $(whoami)
 ```
 
-* Displays:
+### Real output:
 
-  * User ID (UID)
-  * Group ID (GID)
-  * All assigned groups
+```
+uid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),4(adm),24(cdrom),27(sudo),30(dip),105(lxd)
+```
 
-✅ This is commonly used for **auditing access on servers**.
+### Breakdown:
+
+* **UID:** `1000` → ubuntu user
+* **Primary Group:** `ubuntu`
+* **Secondary Groups:** sudo, adm, lxd, etc.
+
+📌 This command is **commonly used in production debugging**.
 
 ---
 
-### 2️⃣ Root Access vs Sudo
+# 🛡️ **4. Root Access vs Sudo (Best Practice)**
+
+### Switch to root shell:
 
 ```bash
 sudo -i
 ```
 
-* Switches to a **root shell**
-* Used when administrative tasks are required
+Prompt changes to:
 
-⚠️ **Best Practice:**
-Direct root login is usually **disabled on production servers**.
-Instead, users are granted `sudo` access for security and accountability.
+```
+root@ip-172-31-17-4:~#
+```
+
+Exit root shell:
+
+```bash
+exit
+```
+
+### Why DevOps uses `sudo` instead of root login:
+
+✔ Better security
+✔ Command auditing
+✔ Prevents accidental system damage
+
+⚠️ **Direct root login is disabled on AWS by default**
 
 ---
 
-### 3️⃣ Creating a New User
+# 👤 **5. Creating a New User on Ubuntu**
+
+### Create user:
 
 ```bash
 sudo useradd testuser
 ```
 
-* Creates a new user named `testuser`
+✔ User created (but login disabled until password is set)
 
-Set a password for the user:
+---
+
+### Set password:
 
 ```bash
 sudo passwd testuser
 ```
 
+Output:
+
+```
+passwd: password updated successfully
+```
+
+✔ Now the user can log in
+
 ---
 
-### 4️⃣ Granting Sudo Privileges
+# 🔐 **6. Granting Sudo Access to a User**
 
 ```bash
 sudo usermod -aG sudo testuser
 ```
 
-#### Explanation of options:
+### Explanation:
 
-| Option     | Description                                        |
-| ---------- | ----------------------------------------------     |
-| `usermod`  | Modify an existing user                            |
-| `-a`       | Append (important to **preserve** existing groups) |
-| `-G`       | Specify group                                      |
-| `sudo`     | Group name                                         |
-| `testuser` | Target user                                        |
+| Option     | Meaning                                |
+| ---------- | -------------------------------------- |
+| `usermod`  | Modify existing user                   |
+| `-a`       | Append (do not remove existing groups) |
+| `-G`       | Specify group                          |
+| `sudo`     | Admin privileges                       |
+| `testuser` | Target user                            |
 
-✅ After this, `testuser` can run administrative commands using `sudo`.
-
-📌 **Critical Note:**
-Never omit `-a` when using `-G`, or existing groups may be removed.
+⚠️ **Very Important:**
+Never use `-G` without `-a` → it can **remove existing groups**.
 
 ---
 
-### 5️⃣ Using Manual Pages (Professional Habit)
-
-Linux provides built-in documentation via `man` pages:
+# 📖 **7. Reading Manual Pages (Professional Habit)**
 
 ```bash
 man sudo usermod -aG
-man sudo usermod -a | grep "-a"
-man sudo usermod | grep "G"
+man sudo usermod -a
+man sudo usermod -a | grep "G"
 ```
 
-This helps:
+✔ Essential skill for:
 
-* Understand command options
-* Avoid mistakes on production systems
-* Build strong troubleshooting habits
-
----
-
-## 📌 DevOps / Platform Ops Takeaways
-
-✔ User and group management is a **daily task** in Platform Ops
-✔ `sudo` access should be **controlled, audited, and minimal**
-✔ `groups` and `id` are commonly used during **incident troubleshooting**
-✔ Manual pages (`man`) are a professional engineer’s best friend
+* Understanding commands deeply
+* Avoiding production mistakes
+* Becoming a self-reliant engineer
 
 ---
 
-## 🧠 Quick Summary
-
-| Command                 | Purpose                      |
-| ----------------------- | ---------------------------- |
-| `groups $(whoami)`      | List groups for current user |
-| `id $(whoami)`          | Show UID, GID, and groups    |
-| `sudo useradd`          | Create a new user            |
-| `sudo passwd`           | Set user password            |
-| `sudo usermod -aG sudo` | Grant sudo access            |
-| `man`                   | View command documentation   |
-
----
-
-## 📸 Screenshots to Capture
-
-* Output of `groups $(whoami)`
-* Output of `id $(whoami)`
-* Verification of sudo access for `testuser`
-
-📁 Recommended path:
+# 🧪 **8. FULL TERMINAL SESSION (Real AWS Practice)**
 
 ```
-screenshots/day-03-user-groups.png
+groups $(whoami)
+id $(whoami)
+sudo -i
+exit
+sudo useradd testuser
+sudo passwd testuser
+sudo usermod -aG sudo testuser
+man sudo usermod -aG
+man sudo usermod -a
+man sudo usermod -a | grep "G"
 ```
 
 ---
 
-## 🧪 Practice Exercises
+# 🎯 **9. Why This Matters for DevOps / Platform Ops**
 
-1. Create another user (e.g., `devopsuser`)
-2. Assign it to a non-sudo group
-3. Switch to that user:
-
-   ```bash
-   su - devopsuser
-   ```
-4. Grant sudo access and verify
+✔ Every EC2 / VM uses Linux users
+✔ CI/CD agents run as users
+✔ Incorrect permissions = security risk
+✔ Sudo access control prevents outages
 
 ---
 
-## 🔑 Key Concepts to Remember
+# 🧠 **Quick Summary**
 
-* `sudo -i` vs `sudo su -` (try both and observe differences)
-* Always verify group membership after changes
-* Never give unnecessary sudo access on production systems
+| Command            | Purpose               |
+| ------------------ | --------------------- |
+| `groups`           | Show user groups      |
+| `id`               | Show UID, GID, groups |
+| `sudo -i`          | Root shell            |
+| `useradd`          | Create user           |
+| `passwd`           | Set password          |
+| `usermod -aG sudo` | Grant admin access    |
+| `man`              | Read documentation    |
 
 ---
 
-✅ **Day-3 Completed Successfully**
+# 📌 Screenshot – Commands Output
+
+```
+screenshots/Day-03_AWS_Ubuntu_User_Groups_Sudo.png
+```
+
+(Add the screenshot you shared here)
 
 ---
 
 ## 💬 Commit Message
-Add day-02.md — Linux Users, Groups & Sudo Access
+
+```
+Add day-03.md — Linux Users, Groups & Sudo Access (AWS Ubuntu)
+```
+
+---
+
+## 🔗 Links
+
+🎥 **YouTube:** @ThinkerTechSutraMarathi
+💻 **GitHub Repo:** ThinkerOnlineHub/linux-basics
+📰 **Blog:** [https://thinkertechsutramarathi.wordpress.com/](https://thinkertechsutramarathi.wordpress.com/)
+
+---
+
+# ✅ **End of Day-03**
+
+You now clearly understand:
+✔ Linux users
+✔ Groups & permissions
+✔ Sudo access model
+✔ AWS Ubuntu best practices
+
+---
