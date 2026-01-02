@@ -256,6 +256,10 @@ Means:
 ![day2-Change_File-Permissions_&_Owners](https://github.com/ThinkerOnlineHub/linux-basics/blob/e7272a668b6bec45567aec30afd7d19418ffe7fb/screenshots/Day_02_File_permissions_and_owners.png)
 
 
+## 💬 Commit Message
+Add day-02.md — Linux File Types + Ownership + Permissions
+
+
 🔗 Links
 🎥 YouTube: @ThinkerTechSutraMarathi
 
