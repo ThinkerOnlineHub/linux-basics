@@ -199,3 +199,5 @@ screenshots/day-03-user-groups.png
 
 ---
 
+## 💬 Commit Message
+Add day-02.md — Linux Users, Groups & Sudo Access
