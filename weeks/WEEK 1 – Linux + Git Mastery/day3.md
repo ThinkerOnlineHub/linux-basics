@@ -209,6 +209,9 @@ man sudo usermod -a | grep "G"
 
 ```
 screenshots/Day-03_AWS_Ubuntu_User_Groups_Sudo.png
+
+![Day-03_AWS_Ubuntu_User_Groups_Sudo](https://github.com/ThinkerOnlineHub/linux-basics/blob/9b959e69091102a1bb8a0d4076b669cc4a9eb43f/screenshots/Day-03_AWS_Ubuntu_User_Groups_Sudo.png)
+
 ```
 
 (Add the screenshot you shared here)
