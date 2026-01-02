@@ -54,11 +54,10 @@
 ## 💬 Commit Message
 Add day-01.md — Linux navigation & basic file commands practice
 
-`
 
 🔗 Links
 🎥 YouTube: @ThinkerTechSutraMarathi
 
 💻 GitHub Repo: ThinkerOnlineHub/linux-basics
 
-📰 Blog (Coming Soon): thinkernetsutra.wordpress.com
+📰 Blog (Coming Soon): [thinkertechsutramarathi](https://thinkertechsutramarathi.wordpress.com)
