@@ -227,7 +227,9 @@ Add day-03.md — Linux Users, Groups & Sudo Access (AWS Ubuntu)
 ## 🔗 Links
 
 🎥 **YouTube:** @ThinkerTechSutraMarathi
+
 💻 **GitHub Repo:** ThinkerOnlineHub/linux-basics
+
 📰 **Blog:** [https://thinkertechsutramarathi.wordpress.com/](https://thinkertechsutramarathi.wordpress.com/)
 
 ---
