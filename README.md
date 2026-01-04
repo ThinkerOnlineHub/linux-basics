@@ -1,63 +1,111 @@
-# 🧩 Linux Basics – Platform Ops Learning Journey  
+# 🚀 Linux Fundamentals for DevOps & Platform Engineering
 
-Welcome to my **Platform Operations Learning Journey**!  
-This repository documents my daily hands-on practice in Linux, forming the foundation for my future learning in **Cloud, Containers, and DevOps**.  
-Each day, I learn-by-doing and share progress publicly — one step at a time 🚀  
+This repository documents my **structured, hands-on Linux learning journey**, practiced on **AWS EC2 Ubuntu**, with the goal of transitioning into a **Platform Operations / DevOps Engineering role**.
 
----
-
-## 🎯 **Goal**
-To master Linux fundamentals required for Platform Ops, DevOps, and Cloud Engineering roles.  
-This journey helps me build confidence with the command line, file systems, and networking concepts — the real backbone of every production system.
+Each day focuses on **real-world Linux concepts**, commands, and troubleshooting techniques that are actively used in production environments.
 
 ---
 
-## 📆 **Progress Tracker**
+## 👨‍💻 About Me
 
-| Day | Topic | Status | Notes / Link |
-|-----|--------|--------|---------------|
-| 1 | Basic Commands | ✅ | [Day-01.md](day-01.md) |
-| 2 | File Permissions | ✅ | In Progress |
-| 3 | User Management | ✅  | Planned |
-| 4 | File System Structure | ⏳ | Planned |
-| 5 | File Redirection & Pipes | ⏳ | Planned |
-| 6 | Package Management | ⏳ | Planned |
-| 7 | Process Management | ⏳ | Planned |
-| 8 | Networking Basics | ⏳ | Planned |
-| 9 | Disk Management | ⏳ | Planned |
-| 10 | Shell Scripting Intro | ⏳ | Planned |
-| 11 | Environment Variables | ⏳ | Planned |
-| 12 | System Monitoring Tools | ⏳ | Planned |
-| 13 | Backup & Compression | ⏳ | Planned |
-| 14 | Mini Project / Revision | ⏳ | Planned |
+I am a **career transitioner** building strong Linux, Cloud, and DevOps fundamentals through:
+- Daily hands-on practice
+- Real AWS infrastructure
+- Clear documentation
+- Learning in public
+
+🎯 **Target Role:**  
+Platform Operations Engineer / DevOps Engineer / Cloud Operations
 
 ---
 
+## 📌 Why This Repository Exists
 
-> 📝 Each day includes:
-> - Commands practiced  
-> - Output screenshots (optional)  
-> - Short notes and learnings  
-> - Reflection or use-case in Platform Ops context  
+Linux is the backbone of:
+- Cloud platforms
+- CI/CD pipelines
+- Containers & Kubernetes
+- Production servers
+
+This repository exists to:
+✔ Build strong Linux foundations  
+✔ Practice production-grade commands  
+✔ Create a visible, verifiable learning trail for recruiters  
+
+---
+
+## 🧠 Skills Covered
+
+- Linux command line fundamentals  
+- File permissions & ownership  
+- Users, groups & sudo access  
+- Process monitoring & service management  
+- AWS EC2 Ubuntu hands-on practice  
+
+(Upcoming: Networking, logs, disks, system troubleshooting)
 
 ---
 
-## 🧰 **Tools Used**
+## 📘 Learning Structure (Day-wise)
 
-- **macOS Terminal** (Practice environment)
-- **GitHub** (Daily uploads)
-- **Notion** (Study planner)
-- **VS Code** (For markdown editing)
+| Day | Topic | File |
+|----|------|------|
+| Day-01 | Linux Introduction & Navigation | `day-01-linux-intro.md` |
+| Day-02 | Files, Permissions & Ownership | `day-02-files-permissions.md` |
+| Day-03 | Users, Groups & Sudo Access | `day-03-users-groups-sudo.md` |
+| Day-04 | Processes & Services (systemd) | `day-04-processes-services.md` |
+
+📌 Each file includes:
+- Goal of the day  
+- Commands with explanation  
+- Real AWS output  
+- Screenshots as proof  
+- DevOps relevance  
 
 ---
+
+## 🧪 Environment Used
+
+- **Cloud:** AWS EC2  
+- **OS:** Ubuntu Linux  
+- **Access:** SSH  
+- **Practice Type:** Real terminal (no simulations)
+
+---
+
+## 📈 Progress Tracking
+
+👉 Detailed learning progress is tracked here:  
+📄 **[`progress-tracker.md`](./progress-tracker.md)**
+
+---
+
+## 🔗 Learning in Public
+
+- 📝 Blog: https://thinkertechsutramarathi.wordpress.com/
+- 🎥 YouTube: @ThinkerTechSutraMarathi
+- 💻 GitHub: https://github.com/ThinkerOnlineHub
+
+---
+
+## 🤝 For Recruiters & Hiring Managers
+
+This repository demonstrates:
+✔ Consistency  
+✔ Hands-on Linux knowledge  
+✔ Cloud exposure  
+✔ Clear documentation  
+✔ Production-oriented thinking  
+
+📬 Feel free to connect with me on LinkedIn to discuss opportunities.
 
 ## 🔗 **Connect with Me**
 
 - 🌐 **LinkedIn:** [Prafulla Sagavekar](https://www.linkedin.com/in/prafulla-sagavekar/)
 - 💻 **GitHub:** [ThinkerOnlineHub](https://github.com/ThinkerOnlineHub/linux-basic)
 - ▶️ **YouTube (Hindi + Tech):** [@thinkerprafulla](https://www.youtube.com/@thinkerprafulla)
-- 🎙️ **YouTube (Marathi):** [@ThinkerNetSutra](https://www.youtube.com/@ThinkertechSutramarathi)
-- 🌏 **Blog:** [thinkernetsutra.wordpress.com](https://thinkertechsutramarathi.wordpress.com/)
+- 🎙️ **YouTube (Marathi):** [@ThinkerTechSutraMarathi](https://www.youtube.com/@ThinkertechSutramarathi)
+- 🌏 **Blog:** [ThinkerTechSutraMarathi](https://thinkertechsutramarathi.wordpress.com/)
 
 ---
 
@@ -67,8 +115,11 @@ After Linux → Move to **AWS Basics**, then **Docker**, **Kubernetes (EKS)**, a
 > सातत्य म्हणजे शक्ती 💪 | Consistency is Power 💪
 
 ---
+## 🏁 Final Note
 
-⭐ **If you found this repo useful or inspiring — give it a star!**
+This repository is continuously evolving as I move deeper into:
+- Linux internals
+- Networking
+- Cloud & Platform Operations
 
-## 📸 **Repository Structure**
-
+⭐ If you find this journey useful, feel free to star the repo.
