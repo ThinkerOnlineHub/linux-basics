@@ -13,7 +13,7 @@ Each topic is:
 
 | Day | Topic | Status | Date | Skills Gained | Reference |
 |----|------|--------|------|---------------|-----------|
-| Day-01 | Linux Introduction & Navigation | ✅ Completed | 2025-12-29 | Basic commands, navigation | !['day-01.md'](https://github.com/ThinkerOnlineHub/linux-basics/blob/74e9cabb4116572e9707de5ba2870771fe7e713b/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day1.md) |
+| Day-01 | Linux Introduction & Navigation | ✅ Completed | 2025-12-29 | Basic commands, navigation | "Day1.md"![day-01.md](https://github.com/ThinkerOnlineHub/linux-basics/blob/74e9cabb4116572e9707de5ba2870771fe7e713b/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day1.md) |
 | Day-02 | Files, Permissions & Ownership | ✅ Completed | 2025-12-30 | chmod, chown, ls -l | ![day-02.md](https://github.com/ThinkerOnlineHub/linux-basics/blob/74e9cabb4116572e9707de5ba2870771fe7e713b/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day2.md) |
 | Day-03 | Users, Groups & Sudo Access | ✅ Completed | 2026-01-02 | sudo, usermod, id | ![day-03.md](https://github.com/ThinkerOnlineHub/linux-basics/blob/74e9cabb4116572e9707de5ba2870771fe7e713b/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day3.md) |
 | Day-04 | Processes & Services (systemd) | ✅ Completed | 2026-01-04 | ps, top, pkill, systemctl | ![day-04.md](https://github.com/ThinkerOnlineHub/linux-basics/blob/74e9cabb4116572e9707de5ba2870771fe7e713b/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day4.md) |
