@@ -90,8 +90,11 @@ top
 htop
 ```
 
+
 ✔ Colorful UI
+
 ✔ Scrollable list
+
 ✔ Kill processes using keyboard
 
 📌 Install if missing:
