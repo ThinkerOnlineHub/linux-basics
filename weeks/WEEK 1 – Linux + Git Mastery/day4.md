@@ -4,6 +4,7 @@
 > `ps`, `top`, `htop`, `kill / pkill`, and `systemctl`.
 
 This is a **core skill** for **DevOps, SRE, and Platform Engineers**, because:
+
 ✔ Applications run as processes  
 ✔ Failures must be diagnosed live  
 ✔ Services must be restarted safely in production  
