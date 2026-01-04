@@ -258,7 +258,7 @@ sudo systemctl restart ssh
 screenshots/Day-04_AWS_Ubuntu_Processes_Services.png
 ```
 
-![Day-04\_AWS\_Ubuntu\_Processes\_Services](https://github.com/ThinkerOnlineHub/linux-basics/blob/main/screenshots/Day-04_AWS_Ubuntu_Processes_Services.png)
+![Day-04\_AWS\_Ubuntu\_Processes\_Services](https://github.com/ThinkerOnlineHub/linux-basics/blob/59169eed6c5265e13e73f633e70408efa36d3d94/screenshots/Day-04_AWS_Ubuntu_Processes_Services.png)
 
 ---
 
