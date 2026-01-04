@@ -17,8 +17,8 @@ This journey helps me build confidence with the command line, file systems, and 
 | Day | Topic | Status | Notes / Link |
 |-----|--------|--------|---------------|
 | 1 | Basic Commands | ✅ | [Day-01.md](day-01.md) |
-| 2 | File Permissions | 🔄 | In Progress |
-| 3 | User Management | ⏳ | Planned |
+| 2 | File Permissions | ✅ | In Progress |
+| 3 | User Management | ✅  | Planned |
 | 4 | File System Structure | ⏳ | Planned |
 | 5 | File Redirection & Pipes | ⏳ | Planned |
 | 6 | Package Management | ⏳ | Planned |
@@ -54,10 +54,10 @@ This journey helps me build confidence with the command line, file systems, and 
 ## 🔗 **Connect with Me**
 
 - 🌐 **LinkedIn:** [Prafulla Sagavekar](https://www.linkedin.com/in/prafulla-sagavekar/)
-- 💻 **GitHub:** [ThinkerOnlineHub](https://github.com/ThinkerOnlineHub)
+- 💻 **GitHub:** [ThinkerOnlineHub](https://github.com/ThinkerOnlineHub/linux-basic)
 - ▶️ **YouTube (Hindi + Tech):** [@thinkerprafulla](https://www.youtube.com/@thinkerprafulla)
-- 🎙️ **YouTube (Marathi):** [@ThinkerNetSutra](https://www.youtube.com/@ThinkerNetSutra)
-- 🌏 **Blog:** [thinkernetsutra.wordpress.com](https://thinkernetsutra.wordpress.com/)
+- 🎙️ **YouTube (Marathi):** [@ThinkerNetSutra](https://www.youtube.com/@ThinkertechSutramarathi)
+- 🌏 **Blog:** [thinkernetsutra.wordpress.com](https://thinkertechsutramarathi.wordpress.com/)
 
 ---
 
