@@ -193,6 +193,7 @@ sudo systemctl restart ssh
 ```
 
 ✔ Used after config changes
+
 ✔ Safe restart without reboot
 
 ---
@@ -225,8 +226,11 @@ sudo systemctl restart ssh
 ## 🎯 **10. Why This Matters for DevOps / SRE**
 
 ✔ Debug high CPU or memory usage
+
 ✔ Identify hung or zombie processes
+
 ✔ Restart failed services safely
+
 ✔ Maintain uptime in production
 
 🚨 **Most outages are fixed using these commands**
@@ -269,7 +273,9 @@ Add day-04.md — Linux Processes & Services (AWS Ubuntu)
 ## 🔗 Links
 
 🎥 **YouTube:** @ThinkerTechSutraMarathi
+
 💻 **GitHub Repo:** ThinkerOnlineHub/linux-basics
+
 📰 **Blog:** [thinkertechsutramarathi](https://thinkertechsutramarathi.wordpress.com/)
 
 ---
@@ -277,6 +283,7 @@ Add day-04.md — Linux Processes & Services (AWS Ubuntu)
 # ✅ **End of Day-04**
 
 You now understand:
+
 ✔ Linux processes
 ✔ Background execution
 ✔ Process termination
