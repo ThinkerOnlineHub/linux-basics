@@ -252,12 +252,12 @@ traceroute thinkertechsutramarathi.wordpress.com
 ```
 screenshots/Day-05_AWS_Ubuntu_Networking_Basics.png
 ```
-![Day-5_Networking_basics_ping](screenshots/Day-5_Networking_basics_ping.png)
-![Day-5_Networking_basics_curl_ss_install_netstat](screenshots/Day-5_Networking_basics_curl_ss_install_netstat_cmd)
-![Day-5_Networking_basics_netstat_ss_-tuln_dig+short_traceroute_sudo_apt_install](screenshots/Day-5_Networking_basics_netstat_ss_-tuln_dig+short_traceroute_sudo_apt_install_cmd)
-![Day-5_Networking_basics_sudo_apt_install_traceroute](screenshots/Day-5_Networking_basics_sudo_apt_install_traceroute_cmd)
-![Day-5_Networking_basics_traceroute](screenshots/Day-5_Networking_basics_traceroute_cmd)
-![Day-5_Networking_basics_ping_curl_ss_netstat_dig_traceroute](screenshots/Day-5_Networking_basics_ping_curl_ss_netstat_dig_traceroute_cmd)
+[Day-5_Networking_basics_ping](screenshots/Day-5_Networking_basics_ping.png)
+[Day-5_Networking_basics_curl_ss_install_netstat](screenshots/Day-5_Networking_basics_curl_ss_install_netstat_cmd)
+[Day-5_Networking_basics_netstat_ss_-tuln_dig+short_traceroute_sudo_apt_install](screenshots/Day-5_Networking_basics_netstat_ss_-tuln_dig+short_traceroute_sudo_apt_install_cmd)
+[Day-5_Networking_basics_sudo_apt_install_traceroute](screenshots/Day-5_Networking_basics_sudo_apt_install_traceroute_cmd)
+[Day-5_Networking_basics_traceroute](screenshots/Day-5_Networking_basics_traceroute_cmd)
+[Day-5_Networking_basics_ping_curl_ss_netstat_dig_traceroute](screenshots/Day-5_Networking_basics_ping_curl_ss_netstat_dig_traceroute_cmd)
 
 *(Attached screenshots show real AWS EC2 practice)*
 
