@@ -291,9 +291,13 @@ Add day-05.md — Linux Networking Basics (AWS Ubuntu)
 You now clearly understand:
 
 ✔ Linux networking fundamentals
+
 ✔ Connectivity & DNS troubleshooting
+
 ✔ Port & service inspection
+
 ✔ Network path analysis
+
 ✔ Real AWS EC2 networking practice
 
 ---
