@@ -252,7 +252,7 @@ traceroute thinkertechsutramarathi.wordpress.com
 ```
 screenshots/Day-05_AWS_Ubuntu_Networking_Basics.png
 ```
-[Day-5_Networking_basics_ping]([screenshots/Day-5_Networking_basics_ping.png](https://github.com/ThinkerOnlineHub/linux-basics/blob/fc6224c55d8295cc2ce2fb9f4605e38e1197ca65/screenshots/Day-5_Networking_basics_ping.png))
+![Day-5_Networking_basics_ping]([screenshots/Day-5_Networking_basics_ping.png](https://github.com/ThinkerOnlineHub/linux-basics/blob/fc6224c55d8295cc2ce2fb9f4605e38e1197ca65/screenshots/Day-5_Networking_basics_ping.png))
 
 [Day-5_Networking_basics_curl_ss_install_netstat]([screenshots/Day-5_Networking_basics_curl_ss_install_netstat_cmd](https://github.com/ThinkerOnlineHub/linux-basics/blob/bee66936a00345055b678938da0faaf7d2957df7/screenshots/Day-5_Networking_basics_curl_ss_install_netstat_cmd.png))
 
