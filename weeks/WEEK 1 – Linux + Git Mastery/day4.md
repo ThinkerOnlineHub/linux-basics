@@ -285,8 +285,11 @@ Add day-04.md — Linux Processes & Services (AWS Ubuntu)
 You now understand:
 
 ✔ Linux processes
+
 ✔ Background execution
+
 ✔ Process termination
+
 ✔ Service management using systemd
 
 🚀 Ready for **real-world DevOps troubleshooting**
