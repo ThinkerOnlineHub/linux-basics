@@ -202,7 +202,21 @@ Day-6: Practiced Linux text tools and system log analysis using tail, less, grep
 * How DevOps engineers debug production systems
 * Why text tools are foundational for SRE and Platform Ops roles
 
-```
+---
+
+Attached screenshots show real AWS EC2 practice)
+---
+💬 Commit Message
+Add day-05.md — Linux Networking Basics (AWS Ubuntu)
+
+🔗 Links
+
+🎥 YouTube: @ThinkerTechSutraMarathi
+
+💻 GitHub Repo: ThinkerOnlineHub/linux-basics
+
+📰 Blog: ThinkerTechSutraMarathi
+
 
 ---
 
