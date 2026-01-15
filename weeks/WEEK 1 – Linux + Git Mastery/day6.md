@@ -209,13 +209,13 @@ Attached screenshots show real AWS EC2 practice)
 💬 Commit Message
 Add day-05.md — Linux Networking Basics (AWS Ubuntu)
 
-🔗 Links
+## 🔗 Links
 
-🎥 YouTube: @ThinkerTechSutraMarathi
+🎥 **YouTube:** @ThinkerTechSutraMarathi
 
-💻 GitHub Repo: ThinkerOnlineHub/linux-basics
+💻 **GitHub Repo:** ThinkerOnlineHub/linux-basics
 
-📰 Blog: ThinkerTechSutraMarathi
+📰 **Blog:** [ThinkerTechSutraMarathi](https://thinkertechsutramarathi.wordpress.com/)
 
 
 ---
