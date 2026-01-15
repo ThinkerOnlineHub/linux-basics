@@ -1,214 +1,208 @@
-# ✅ DAY-06: Linux Text Tools & Logs (AWS Ubuntu)
+````md
+# Day-6: Linux Text Tools & System Logs
 
-> **Goal:**
-> Learn how to read, monitor, filter, and analyze Linux logs using real production-style commands.
->
-> Log analysis is a **core daily responsibility** of Platform Operations, DevOps, and SRE engineers.
+## 📌 Goal
+Understand and practice essential Linux text tools — `tail`, `less`, `head`, `grep`, `awk`, `sed` — and learn how to inspect real system logs under `/var/log` like a DevOps / Platform Operations engineer.
 
 ---
 
 ## 🧩 1. Why Logs Matter in Linux
 
-Logs are the **first place** engineers look when something breaks.
+In real-world DevOps and Platform Operations work, **logs are the first place you look when something breaks**.
 
-They help answer:
+Whether it’s:
+- an application crash
+- a failed service
+- an SSH login issue
+- high CPU or memory usage
+- or unexpected system behavior
 
-- Why did a service fail?
-- What error occurred?
-- When did the issue start?
-- Which process caused it?
+👉 **Logs always tell the story.**
 
-In AWS EC2 Ubuntu, system logs are primarily stored under: 
-/var/log/
+Linux provides powerful text-processing tools that allow engineers to:
+- read very large log files safely
+- filter errors instantly
+- extract only the required fields
+- debug live systems without downtime
+
+This is exactly how on-call engineers work on production systems.
 
 ---
 
 ## 🔍 2. Viewing Recent Logs with `tail`
 
-### Command used:
-
+### Command Used
 ```bash
 sudo tail -n 50 /var/log/syslog
+````
 
-```
+### Explanation
 
-Explanation:
-```bash
-tail → shows the last lines of a file
+* Displays the **last 50 lines** of the system log
+* Quickly shows recent errors, warnings, and service events
 
-n 50 → display last 50 entries
+### Why This Matters
 
-syslog → main system activity log
-```
+When incidents occur, recent logs are usually the most relevant.
+This command is commonly used during **incident triage**.
 
-📌 This is commonly used during incident investigation.
+---
 
-📖 3. Reading Logs Safely with less
+## 📖 3. Reading Large Logs Safely with `less`
 
-Command used:
+### Command Used
 
 ```bash
 less /var/log/syslog
 ```
-​
-Explanation:
 
-Allows scrolling through large log files
+### Explanation
 
-Does not load entire file into memory
+* Opens logs in a **scrollable, memory-efficient viewer**
+* Preferred over `cat` for large files
 
-Useful for deep log inspection
+### Useful Keys
 
-Helpful keys:
+* `/error` → search for keyword
+* `n` → next match
+* `q` → quit
 
-↑ ↓ → scroll
+### Why This Matters
 
-/error → search keyword
+Production logs can be **hundreds of MBs or more**.
+`less` prevents system overload while debugging.
 
-q → quit
+---
 
-🔁 4. Live Log Monitoring with tail -f
+## 🔄 4. Monitoring Logs in Real Time with `tail -f`
 
-Command used:
+### Command Used
 
 ```bash
 tail -f /var/log/syslog
 ```
-​
-Explanation:
 
-f → follow the log in real time
+### Explanation
 
-Shows new log entries as they happen
+* Streams log entries **live**
+* Shows events as they happen
 
-📌 Used when:
+### Why This Matters
 
-Restarting services
+Critical for:
 
-Debugging live issues
+* service restarts
+* SSH login tracking
+* cron job monitoring
+* live troubleshooting during outages
 
-Watching application behavior
+---
 
-🚨 5. Filtering Errors Using grep
+## 🔎 5. Searching Errors Using `grep`
 
-Command used:
+### Command Used
 
 ```bash
 grep -i error /var/log/syslog
 ```
-​
-Explanation:
 
-grep → search text
+### Explanation
 
-i → case-insensitive
+* Filters only lines containing the word `error`
+* `-i` makes the search case-insensitive
 
-error → keyword
+### Why This Matters
 
-✔ Quickly isolates failure messages
+Instead of reading thousands of lines, you instantly focus on **failure signals**.
 
-✔ Reduces noise in large logs
+---
 
-🧠 6. Combining Logs with Process Analysis
+## 🧠 6. Extracting Process Data with `awk`
 
-To understand which process generated logs, I checked running processes:
-
-Command used:
+### Command Used
 
 ```bash
 ps aux | awk '{print $1,$2,$11}' | head
-ps aux | awk '{print $1,$2,$11}' | tail
 ```
-​
-Explanation:
 
-Displays USER, PID, COMMAND
+### Explanation
 
-Helps correlate logs with active processes
+Extracts:
 
-Useful during high CPU / memory incidents
+* User
+* Process ID (PID)
+* Command name
 
-🧾 7. Checking Command History (Audit & Debugging)
+### Why This Matters
 
-Command used:
-```bash
-history | tail -20
+Helps identify:
+
+* resource-hungry processes
+* suspicious services
+* who owns which process
+
+This is foundational for **performance debugging and security audits**.
+
+---
+
+## 🚀 Why This Matters for DevOps / SRE
+
+In real production environments:
+
+* Logs are often the **only source of truth**
+* SSH + log inspection = **first response**
+* Dashboards don’t show everything
+
+These tools are used daily for:
+
+* Incident response
+* Root cause analysis (RCA)
+* Service failure investigation
+* Performance troubleshooting
+* Security monitoring
+
+If you can’t read logs confidently, you can’t operate production systems safely.
+
+---
+
+## 📊 Quick Summary
+
+| Tool       | Purpose                   |
+| ---------- | ------------------------- |
+| `tail`     | View recent log entries   |
+| `less`     | Safely read large files   |
+| `grep`     | Search errors or keywords |
+| `awk`      | Extract structured fields |
+| `ps aux`   | Inspect running processes |
+| `/var/log` | Core system log directory |
+
+---
+
+## 🖼️ Screenshots
+
+📸 Terminal screenshots attached showing real execution on an AWS EC2 Ubuntu instance.
+
+---
+
+## 📝 Commit Message
+
 ```
-​
-Explanation:
+Day-6: Practiced Linux text tools and system log analysis using tail, less, grep, awk on EC2
+```
 
-Shows last executed commands
+---
 
-Helps track changes made on the system
+## ✅ End of Day-6
 
-Useful for auditing and rollback analysis
+### You now understand:
 
-🧪 8. FULL TERMINAL SESSION (Real AWS Practice)
-
-```bash
-sudo tail -n 50 /var/log/syslog
-
-less /var/log/syslog
-
-tail -f /var/log/syslog
-
-grep -i error /var/log/syslog
-
-ps aux | awk '{print $1,$2,$11}' | head
-
-ps aux | awk '{print $1,$2,$11}' | tail
-
-history | tail -20
+* How to inspect Linux system logs safely
+* How to monitor logs in real time
+* How to filter errors instantly
+* How DevOps engineers debug production systems
+* Why text tools are foundational for SRE and Platform Ops roles
 
 ```
-​
-🎯 9. Why This Matters for DevOps / Platform Ops / SRE
 
-✔ Production issues are solved using logs
+---
 
-✔ Most outages start with tail, grep, less
-
-✔ Logs + processes = root cause analysis
-
-✔ Essential for on-call rotations
-
-🧠 Quick Summary
-Command
-Purpose
-tail
-View recent logs
-less
-Read large log files
-tail -f
-Live log monitoring
-grep
-Filter errors
-ps + awk
-Process correlation
-history
-Command audit
-
-
-📌 Screenshot – Commands Output
-
-screenshots/Day-06_AWS_Ubuntu_Text_Tools_Logs.png
-
-​
-💬 Commit Message
-
-Add day-06.md — Linux Text Tools & Logs (AWS Ubuntu)
-
-​
-✅ End of Day-06
-
-You now understand:
-
-✔ How to read Linux logs
-
-✔ How to monitor live system activity
-
-✔ How to filter errors efficiently
-
-✔ How to correlate logs with processes
-
-✔ Real AWS Ubuntu troubleshooting basics
