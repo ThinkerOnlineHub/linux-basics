@@ -1,4 +1,4 @@
-````md
+
 # Day-6: Linux Text Tools & System Logs
 
 ## 📌 Goal
