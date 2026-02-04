@@ -27,8 +27,11 @@ In real-world DevOps:
 - **Manual operations** = human error
 
 Every production system must:
+
 ✔ Stay updated
+
 ✔ Have predictable backups
+
 ✔ Run scheduled health checks
 
 ---
