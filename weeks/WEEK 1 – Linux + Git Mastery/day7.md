@@ -59,7 +59,7 @@ Always run `apt update` before installs or upgrades to avoid dependency mismat
 
 📸 Screenshot:
 
-![apt update](./screenshots/Day-7_Package_management_&_backups_sudo-apt-update.png)
+![apt update](https://github.com/ThinkerOnlineHub/linux-basics/blob/2c29f3b6e8bacab40d8aa3c8a5048b026187939d/screenshots/Day-7_Package_management_%26_backups_sudo-apt-update.png)
 
 ---
 
@@ -90,7 +90,7 @@ Knowing **what is already installed** is as important as installing new tools.
 
 📸 Screenshot:
 
-![htop install](./screenshots/Day-7_Package_management_&_backups_sudo-apt-install-y-htop.png)
+![htop install](https://github.com/ThinkerOnlineHub/linux-basics/blob/2c29f3b6e8bacab40d8aa3c8a5048b026187939d/screenshots/Day-7_Package_management_%26_backups_sudo-apt-install-y-htop.png)
 
 ---
 
@@ -123,7 +123,7 @@ Backups must be **atomic or scheduled during low activity** in production.
 
 📸 Screenshot:
 
-![tar backup](./screenshots/Day-7_Package_management_&_backups_tar_zip.png)
+![tar backup](https://github.com/ThinkerOnlineHub/linux-basics/blob/2c29f3b6e8bacab40d8aa3c8a5048b026187939d/screenshots/Day-7_Package_management_%26_backups_tar_zip.png)
 
 ---
 
@@ -184,8 +184,9 @@ Cron is still widely used for:
 
 📸 Screenshot:
 
-![cron edit](./screenshots/Day-7_Package_management_&_backups_edit_crontab.png)
-![cron-tar-zip ](./screenshots/Day-7_Package_management_&_backups_cron_tar_zip.png)
+![cron edit](https://github.com/ThinkerOnlineHub/linux-basics/blob/2c29f3b6e8bacab40d8aa3c8a5048b026187939d/screenshots/Day-7_Package_management_%26_backups_edit_crontab.png)
+
+![cron-tar-zip ](https://github.com/ThinkerOnlineHub/linux-basics/blob/2c29f3b6e8bacab40d8aa3c8a5048b026187939d/screenshots/Day-7_Package_management_%26_backups_cron_tar_zip.png)
 
 ---
 
@@ -232,8 +233,8 @@ Always log cron outputs — silent failures are dangerous.
 - cron configuration
 - command history
 
-![History Package management & backups ](./screenshots/Day-7_History_Package_management_&_backups.png)
 ---
+![History Package_management_&_backups](https://github.com/ThinkerOnlineHub/linux-basics/blob/2c29f3b6e8bacab40d8aa3c8a5048b026187939d/screenshots/Day-7_History_Package_management_%26_backups.png)
 
 ## 🧠 You Now Understand
 
