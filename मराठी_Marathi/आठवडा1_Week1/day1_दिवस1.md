@@ -1,6 +1,6 @@
 # Day 01 — Linux Basics: Navigation & Files
 
-**Date:** 2025-11-28
+**Date:** 2025-03-02
 
 ---
 
