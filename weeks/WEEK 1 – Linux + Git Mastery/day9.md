@@ -284,6 +284,21 @@ Hiring managers value engineers who:
 ✔ Git-ready enhancement
 
 ---
+🖥️ Screenshots:
+
+![Day-9—Script_enhancements_+_alerts_cat_scripts.1.jpeg](https://github.com/ThinkerOnlineHub/linux-basics/blob/89eab219c9a7227924db83d2d18ab56307aa2831/screenshots/Day-9%E2%80%94Script_enhancements_%2B_alerts_cat_scripts.1.jpeg)
+
+![Day-9—Script_enhancements_+_alerts_cat_scripts_checking.png](https://github.com/ThinkerOnlineHub/linux-basics/blob/89eab219c9a7227924db83d2d18ab56307aa2831/screenshots/Day-9%E2%80%94Script_enhancements_%2B_alerts_cat_scripts_checking.png)
+
+![Day-9—Script_enhancements_+_alerts_cat_scripts_log_check.png](https://github.com/ThinkerOnlineHub/linux-basics/blob/89eab219c9a7227924db83d2d18ab56307aa2831/screenshots/Day-9%E2%80%94Script_enhancements_%2B_alerts_cat_scripts_log_check.png)
+
+![Day-9—Script_enhancements_+_alerts_ls.png](https://github.com/ThinkerOnlineHub/linux-basics/blob/89eab219c9a7227924db83d2d18ab56307aa2831/screenshots/Day-9%E2%80%94Script_enhancements_%2B_alerts_ls.png)
+
+![Day-9—Script_seen_part1.png](https://github.com/ThinkerOnlineHub/linux-basics/blob/89eab219c9a7227924db83d2d18ab56307aa2831/screenshots/Day-9%E2%80%94Script_seen_part1.png)
+
+![Day-9—Script_seen_part2.png](https://github.com/ThinkerOnlineHub/linux-basics/blob/89eab219c9a7227924db83d2d18ab56307aa2831/screenshots/Day-9%E2%80%94Script_seen_part2.png)
+
+---
 
 ## 🔗 Links
 
