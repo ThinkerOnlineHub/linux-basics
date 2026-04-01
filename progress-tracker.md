@@ -3,8 +3,11 @@
 This document tracks my **day-wise Linux learning progress** as part of my transition into **Platform Operations / DevOps Engineering**.
 
 Each topic is:
+
 ✔ Practiced on AWS EC2
+
 ✔ Documented with commands & explanations
+
 ✔ Backed by screenshots
 
 ---
