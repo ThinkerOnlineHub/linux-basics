@@ -104,7 +104,7 @@ This module builds a strong foundation in **Linux system administration, trouble
 | Day-07 | Package Management & Backups       | `day7.md` |
 | Day-08 | Shell Scripting Basics             | `day8.md` |
 | Day-09 | Script Enhancements & Alerts       | `day9.md` |
-| Day-10 | Module Wrap-up & Documentation     | `day10-summary.md` |
+| Day-10 | Module Wrap-up & Documentation     | [`day10-summary.md`](https://github.com/ThinkerOnlineHub/linux-basics/blob/2ece42705b5c9c0f5bb746f718268f9b882e9162/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day10-summary.md) |
 
 📌 Each day includes:
 
