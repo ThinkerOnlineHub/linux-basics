@@ -95,15 +95,15 @@ This module builds a strong foundation in **Linux system administration, trouble
 
 | Day    | Topic                              | File      |
 | ------ | ---------------------------------- | --------- |
-| Day-01 | Intro + Basic Navigation           | `day1.md` |
-| Day-02 | File Permissions & Ownership       | `day2.md` |
-| Day-03 | Users, Groups & Sudo               | `day3.md` |
-| Day-04 | Processes & Services               | `day4.md` |
-| Day-05 | Networking Basics                  | `day5.md` |
-| Day-06 | Text Tools & Logs                  | `day6.md` |
-| Day-07 | Package Management & Backups       | `day7.md` |
-| Day-08 | Shell Scripting Basics             | `day8.md` |
-| Day-09 | Script Enhancements & Alerts       | `day9.md` |
+| Day-01 | Intro + Basic Navigation           | [`day1.md`](https://github.com/ThinkerOnlineHub/linux-basics/blob/2ece42705b5c9c0f5bb746f718268f9b882e9162/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day1.md) |
+| Day-02 | File Permissions & Ownership       | [`day2.md`](https://github.com/ThinkerOnlineHub/linux-basics/blob/2ece42705b5c9c0f5bb746f718268f9b882e9162/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day2.md) |
+| Day-03 | Users, Groups & Sudo               | [`day3.md`](https://github.com/ThinkerOnlineHub/linux-basics/blob/2ece42705b5c9c0f5bb746f718268f9b882e9162/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day3.md) |
+| Day-04 | Processes & Services               | [`day4.md`](https://github.com/ThinkerOnlineHub/linux-basics/blob/2ece42705b5c9c0f5bb746f718268f9b882e9162/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day4.md) |
+| Day-05 | Networking Basics                  | [`day5.md`](https://github.com/ThinkerOnlineHub/linux-basics/blob/2ece42705b5c9c0f5bb746f718268f9b882e9162/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day5.md) |
+| Day-06 | Text Tools & Logs                  | [`day6.md`](https://github.com/ThinkerOnlineHub/linux-basics/blob/2ece42705b5c9c0f5bb746f718268f9b882e9162/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day6.md) |
+| Day-07 | Package Management & Backups       | [`day7.md`](https://github.com/ThinkerOnlineHub/linux-basics/blob/2ece42705b5c9c0f5bb746f718268f9b882e9162/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day7.md) |
+| Day-08 | Shell Scripting Basics             | [`day8.md`](https://github.com/ThinkerOnlineHub/linux-basics/blob/2ece42705b5c9c0f5bb746f718268f9b882e9162/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day8.md) |
+| Day-09 | Script Enhancements & Alerts       | [`day9.md`](https://github.com/ThinkerOnlineHub/linux-basics/blob/2ece42705b5c9c0f5bb746f718268f9b882e9162/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day9.md) |
 | Day-10 | Module Wrap-up & Documentation     | [`day10-summary.md`](https://github.com/ThinkerOnlineHub/linux-basics/blob/2ece42705b5c9c0f5bb746f718268f9b882e9162/weeks/WEEK%201%20%E2%80%93%C2%A0Linux%20%2B%20Git%20Mastery/day10-summary.md) |
 
 📌 Each day includes:
