@@ -1,18 +1,18 @@
 # 🚀 Linux Fundamentals for DevOps & Platform Engineering
 
-This repository documents my **structured, hands-on Linux learning journey**, practiced on **AWS EC2 (Ubuntu)**, with a strong focus on building **production-ready skills** for transitioning into a **Platform Operations / DevOps Engineering role**.
+This repository documents my **structured, hands-on Linux learning journey**, practiced on **real AWS EC2 (Ubuntu) environment**, with a strong focus on building **production-ready skills** for transitioning into a **Platform Operations / DevOps Engineering role**.
 
 📌 This is not just theory — every concept is:
 
 * Practiced in a **real cloud environment**
-* Backed by **commands, outputs & screenshots**
+* Backed by **commands, outputs & referenced screenshots (within day-wise files)**
 * Mapped to **real-world DevOps use cases**
 
 ---
 
 ## 👨‍💻 About Me
 
-I am a **career transitioner** actively building skills in **Linux, Cloud, and DevOps** through:
+I am a **career transitioner with hands-on Linux & AWS practice**, actively building skills in Cloud & DevOps. through:
 
 * Daily hands-on practice
 * Real AWS infrastructure
@@ -62,7 +62,8 @@ This module builds a strong foundation in **Linux system administration, trouble
 
 ### 🔹 System Operations
 * Process monitoring (`ps`, `top`)  
-* Service management (`systemctl`)  
+* Service management (`systemctl`)
+* Disk usage & troubleshooting (`df`, `du`)
 * Process control & troubleshooting  
 
 ### 🔹 Networking Basics
@@ -103,7 +104,7 @@ This module builds a strong foundation in **Linux system administration, trouble
 | Day-07 | Package Management & Backups       | `day7.md` |
 | Day-08 | Shell Scripting Basics             | `day8.md` |
 | Day-09 | Script Enhancements & Alerts       | `day9.md` |
-| Day-10 | Module Wrap-up & Documentation     | —         |
+| Day-10 | Module Wrap-up & Documentation     | `summary.md` |
 
 📌 Each day includes:
 
@@ -118,7 +119,7 @@ This module builds a strong foundation in **Linux system administration, trouble
 ## 🛠 Project — System Health Monitoring Script
 
 **Description:**  
-A basic Linux monitoring script built using Bash to simulate real-world DevOps tasks.
+A Linux system monitoring script built using Bash to simulate real-world DevOps scenarios.
 
 **Features:**
 
@@ -156,7 +157,9 @@ This journey focuses on thinking like a **System / Platform Engineer**:
 * 🔹 Managing **users, permissions & security**  
 * 🔹 Monitoring **services & system health**  
 * 🔹 Troubleshooting using **logs and system data**  
-* 🔹 Building a **foundation for automation (scripting)**  
+* 🔹 Building a **foundation for automation (scripting)**
+
+👉 This mindset aligns with real-world responsibilities of DevOps engineers in production environments.
 
 ---
 
@@ -177,6 +180,7 @@ This repository demonstrates:
 ✔ Real AWS cloud exposure  
 ✔ Basic automation & scripting ability  
 ✔ Production-oriented troubleshooting mindset  
+✔ Ability to debug real Linux issues (permissions, scripts, processes)
 
 📬 I am actively seeking **entry-level DevOps / Platform / Cloud roles**  
 
@@ -202,10 +206,19 @@ This repository demonstrates:
 * Kubernetes  
 
 ---
+👉 This repository is structured to simulate **real production learning workflow**
+
+## 🧪 Proof of Work
+
+All scripts, commands, and outputs are executed and validated on a live AWS EC2 instance.
+
+This repository reflects actual hands-on work — not only theoretical notes.
+
+---
 
 ## 📝 Final Note
 
-This repository reflects a **real, consistent, hands-on journey** toward becoming a **DevOps / Platform Engineer**.
+This repository reflects a **real, consistent, hands-on engineering journey** toward becoming a **DevOps / Platform Engineer**.
 
 > सातत्य म्हणजे शक्ती 💪 | Consistency is Power 💪  
 
