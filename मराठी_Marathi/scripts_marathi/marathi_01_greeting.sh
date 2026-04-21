@@ -10,3 +10,10 @@ echo "Hello $USER, $GREETING"
 echo "Creating a backup folder..."
 mkdir -p ~/my_backup
 echo "Done!"
+
+
+# Linux madhe file banvlya-banvlya ti "Executable" naste. Tula tila power dyavi lagel:
+# commmand: `chmod +x myscript.sh`
+
+# Run Karaych asel tar pudhil command use kara
+# command: `./myscript.sh`
