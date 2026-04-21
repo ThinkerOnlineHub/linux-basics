@@ -1,6 +1,6 @@
+# Task: Ek script banav ji ek folder create karel, tyat ek file banvel ani tyat "Success" lihil. He karun bagh, jamle nahi tar me tula code sudharun dein.
 # Ha mi code lihila hota. login tar yogya ahe pan DevOps Pro
 # pramane to pudhe dilela ahe tasa code lihinyacha try kara.
-
 # -----------------------------shell script -----------------------------
 
 #!/bin/bash
