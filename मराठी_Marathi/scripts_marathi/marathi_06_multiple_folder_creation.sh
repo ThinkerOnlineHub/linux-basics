@@ -1,8 +1,10 @@
+# Task: Jar tula एकाच वेळी 3 folders (Month_1, Month_2, Month_3) banvayche astil, tar loop kasa vapraycha?
+# # for loop use kartana
+
+# -----------------------------shell script -----------------------------
+
 #!/bin/bash
 
-# Jar tula एकाच वेळी 3 folders (Month_1, Month_2, Month_3) banvayche astil, tar loop kasa vapraycha?
-# for loop use kartana
-# multiple folder 1kach vel create karnyasathichi script
 
 for folder in Month_1 Month_2 Month_3
 do
