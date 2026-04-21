@@ -1,3 +1,7 @@
+# Task: Tuza code barobar ahe, pan professional DevOps engineer hya script madhe Variables vapartat. Ka? 
+# Karan udya tula folder che nav badlayche asel, tar tula ekach thikani badlav lagel.
+# -----------------------------shell script -----------------------------
+
 #!/bin/bash
 
 #variables define kara (Hi "Best Practice" ahe)
