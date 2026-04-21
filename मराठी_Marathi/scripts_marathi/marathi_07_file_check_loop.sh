@@ -1,9 +1,5 @@
-#!/bin/bash
-
 # DevOps madhe aaplyala ekya folder madhil saglya files check karavyat lagtat.
-# समजा, `~/1st-script/` madhe khup saarya `.txt` files ahet ani tula tyanchi naave print karaychi ahet:
-
-
+# Task: समजा, `~/1st-script/` madhe khup saarya `.txt` files ahet ani tula tyanchi naave print karaychi ahet:
 # folder madhil pratyek file check karnyasathi loop firva mhanje
 # tya folder madhil saglya file check karu shakato
 # tasech tya folder madhe kontya file ahet he check karnaysathi tya sagly files chin nave print karun gheu
@@ -12,6 +8,10 @@
 # loop skip होईल
 # "*.txt" print होणार नाही
 # ✔️ clean output
+
+# -----------------------------shell script -----------------------------
+
+#!/bin/bash
 
 shopt -s nullglob
 
